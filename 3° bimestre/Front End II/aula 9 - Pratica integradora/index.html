@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style/resultado.css">
+</head>
+<body>
+
+    <h1>Calculadora</h1>
+
+    <label for="Valores"></label>
+    <input type="number" name="valor1" id="valor1">
+    <input type="number" name="valor2" id="valor2">
+    <select name="operador" id="operador">
+       <option value="adicao">+</option> 
+       <option value="subtracao">-</option> 
+       <option value="multiplicacao">*</option> 
+       <option value="divisao">/</option> 
+    </select> <br><br>
+   
+    <input type="button" value="calcular" name="calcular" onclick= calculadora()><br><br>
+
+    <div id="resultado" name="resultado"></div>
+    
+    
+
+    <script src="script/somar.js"></script>
+    <script src="script/somar.js"></script>
+    <script src="script/multiplicar.js"></script>
+    <script src="script/dividir.js"></script>
+    <script src="script/calculadora.js"></script>
+</body>
+</html>

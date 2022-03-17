@@ -1,0 +1,21 @@
+
+h1{
+
+    background-color: black;
+    color: azure;
+    width: 178PX;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+#resultado{
+width: 200px;
+height: 20px;
+background-color: bisque;
+border: 3px solid;
+border-color: black;
+border-radius: 10%;
+}
+
