@@ -29,19 +29,10 @@ botaoEnviar.addEventListener("click", function(event){
     cardDiv.appendChild(tituloImagemDiv);
     cardDiv.appendChild(sobreDiv);
 
-    container[1].appendChild(cardDiv);
+    container[2].appendChild(cardDiv);
 
 // inserir a div no container.  
     console.log(cardDiv)
 
-// inseridor o colors na cardDiv
-
-cardDiv.forEach(item => {
-    item.classList.add('items-dark');
-
-    // 2 maneira: Capturando pelo seletor (Recomendado) 
-    item.querySelector('h2').classList.add('items-text-dark')
-    item.querySelector('p').classList.add('items-text-dark')
-}); 
 
 });

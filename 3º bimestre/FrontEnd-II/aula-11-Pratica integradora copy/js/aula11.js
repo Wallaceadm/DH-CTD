@@ -8,18 +8,21 @@ botaoSubmit.addEventListener("click", function(event){
     event.preventDefault();
 
     let form = document.querySelector("#adiciona");
+
     let nome = form.nome.value;
     let sobrenome = form.sobrenome.value;
+
     let eliminarEspacoVazio = nome.trim();
     let aumentarNome = nome.toUpperCase();
     let diminuiNome = nome.toLowerCase();
     let concatNomeSobrenome = nome.concat(sobrenome);
-  
+    let replaceNome = nome.replace(/a/g,"@");
+    let replaceSobreNome = sobrenome.replace(/e/g,"3");
 
-    let replaceNome = nome.replaceAll("a","@");
-    let replaceSobreNome = sobrenome.replaceAll("e",3);
 
-    
+
+
+
 
    
 
@@ -27,9 +30,11 @@ botaoSubmit.addEventListener("click", function(event){
     console.log(diminuiNome);
     console.log(aumentarNome);
     console.log(concatNomeSobrenome); 
-    console.log(replaceNome,replaceSobreNome);
+    console.log(replaceNome);
+    console.log(replaceSobreNome);
 
 });
+
 
 
 
