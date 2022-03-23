@@ -11,6 +11,7 @@ let itemsList = document.querySelectorAll('.item');
 
 /* Função que é chamada pelo onChanged ao clicar no ToggleSwitch */
 function alteraTema() {
+    let itemsListAtualizada = document.querySelectorAll('.item');
 
     // Verifica qual o valor que é retornado pelo Switch
     //console.log(switchValue.checked);
@@ -28,7 +29,7 @@ function alteraTema() {
          } */
 
         //2) Percorrendo com o ForEach (Recomendado)
-        itemsList.forEach(item => {
+        itemsListAtualizada.forEach(item => {
             item.classList.add('items-dark');
             item.classList.add('items-text-dark');
     
@@ -57,7 +58,7 @@ function alteraTema() {
         h1.classList.remove('h1-dark');
 
         //Percorre a lista de elementos, para fazer a remoção em cada um dos itens
-        itemsList.forEach(item => {
+        itemsListAtualizada.forEach(item => {
             item.classList.remove('items-dark');
             //Uma forma de alterar o texto (poem o elemento principal)
             item.classList.remove('items-text-dark');
