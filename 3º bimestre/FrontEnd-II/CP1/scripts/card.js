@@ -21,8 +21,8 @@ botaoEnviar.addEventListener("click", function(event){
   
     imagemDiv.src = imagem;
     imagemDiv.setAttribute("src",imagem);
-    tituloImagemDiv.innerHTML = nome;
-    sobreDiv.innerHTML = sobre;
+    tituloImagemDiv.innerText = nome;
+    sobreDiv.innerText = sobre;
 
 //coloca as informações do formulário no itensDoCard
     cardDiv.appendChild(imagemDiv);
