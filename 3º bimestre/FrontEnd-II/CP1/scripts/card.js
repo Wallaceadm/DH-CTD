@@ -4,6 +4,9 @@ let container = document.querySelectorAll('.container');
 let botaoEnviar = document.querySelector("#enviar");
 botaoEnviar.addEventListener("click", function(event){
     event.preventDefault();
+
+
+
 //selecionar o formulario
     let form = document.querySelector("#formulario");
 

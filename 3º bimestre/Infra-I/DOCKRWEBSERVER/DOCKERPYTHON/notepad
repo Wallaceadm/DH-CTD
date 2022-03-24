@@ -1,0 +1,3 @@
+docker image build . -t image
+
+ocker container run -it --name pycon pyimage bashd
